@@ -1,0 +1,30 @@
+body{
+    background-color: lightcyan;
+}
+#header-img{
+    display: row;
+    width: 100px;
+    height: auto;
+    align-items: flex-end;
+    background-color: lightcyan;
+}
+.nav-link{
+    display: flex;
+    align-items: flex-end;
+    direction: inherit;
+}
+#nav-bar{
+    position: fixed;
+    align-items: flex-end;
+}
+#video{
+    margin-top: 60px;
+    margin-left: 245px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    padding: 10px;
+}
