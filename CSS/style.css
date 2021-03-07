@@ -6,7 +6,7 @@ body{
     width: 100px;
     height: auto;
     align-items: flex-end;
-    background-color: lightcyan;
+    background-color: rgb(199, 132, 69);
 }
 .nav-link{
     display: flex;
@@ -15,7 +15,7 @@ body{
 }
 #nav-bar{
     position: fixed;
-    align-items: flex-end;
+    top:0px;
 }
 #video{
     margin-top: 60px;
@@ -27,4 +27,14 @@ body{
 }
 #submit{
     padding: 10px;
+}
+@media (max-width:300px){
+    
+#header-img{
+    display: row;
+    width: 50px;
+    height: auto;
+    align-items: flex-end;
+    background-color: rgb(199, 132, 69);
+}
 }
