@@ -1,3 +1,13 @@
+@media (max-width:300px){
+    
+    #header-img{
+        display: row;
+        width: 50px;
+        height: auto;
+        align-items: flex-end;
+        background-color: rgb(199, 132, 69);
+    }
+    }
 body{
     background-color: lightcyan;
 }
@@ -24,6 +34,7 @@ body{
 #form{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 #submit{
     padding: 10px;
@@ -37,4 +48,17 @@ body{
     align-items: flex-end;
     background-color: rgb(199, 132, 69);
 }
+}
+#How does it work{
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
 }
